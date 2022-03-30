@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfadbe0fb62bd4d57b96de7847057e36, type: 3}
+  m_Name: DebugCheatData
+  m_EditorClassIdentifier: 
+  commandList:
+  - commandName: Add Coin
+    commandID: 1
+    commandDescription: Add coin to game 10000
+    commandFormat: add_coin
+    isCommandComplete: 1
+  - commandName: Delete Coin
+    commandID: 2
+    commandDescription: Delete All coin From Game
+    commandFormat: delete_coin
+    isCommandComplete: 1
